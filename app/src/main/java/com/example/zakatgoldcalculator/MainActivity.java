@@ -90,7 +90,7 @@ public class MainActivity extends AppCompatActivity {
             Intent shareIntent = new Intent(Intent.ACTION_SEND);
             shareIntent.setType("text/plain");
             // NOTE: Replace the link below with your actual GitHub repository link later!
-            shareIntent.putExtra(Intent.EXTRA_TEXT, "Track your gold zakat accurately via my mobile tool. Source Repository: https://github.com/yourusername/zakat-gold-calc");
+            shareIntent.putExtra(Intent.EXTRA_TEXT, "Track your gold zakat accurately via my mobile tool. Source Repository: https://github.com/DanishLuqman21/LAB_ZakatGoldCalc");
             startActivity(Intent.createChooser(shareIntent, "Share Application Link via"));
             return true;
         } else if (id == R.id.action_about) {
