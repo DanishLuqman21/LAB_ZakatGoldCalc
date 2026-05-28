@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center_horizontal"
+    android:background="@color/light_pink_bg">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Developer Profile"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="@color/aqilah_pink_accent"
+        android:layout_marginBottom="32dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name: DANISH LUQMAN AYOB BIN ZULKEFLE"
+        android:textSize="18sp"
+        android:textColor="#000000"
+        android:layout_marginBottom="8dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Student ID: 2025569047"
+        android:textSize="18sp"
+        android:textColor="#000000"
+        android:layout_marginBottom="8dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Group: RCDCS2515B"
+        android:textSize="18sp"
+        android:textColor="#000000"
+        android:layout_marginBottom="8dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Programme Code: CS251"
+        android:textSize="18sp"
+        android:textColor="#000000"
+        android:layout_marginBottom="32dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="This application is developed to estimate zakat payment for gold keeping and wearing based on gold weight, gold type and current gold value per gram."
+        android:textSize="14sp"
+        android:textColor="#000000"
+        android:layout_marginBottom="4dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tap link to access source code:"
+        android:textSize="14sp"
+        android:textColor="#000000"
+        android:layout_marginBottom="4dp" />
+
+    <TextView
+        android:id="@+id/tvGithubLink"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="https://github.com/yourusername/zakat-gold-calc"
+        android:textColor="#0000EE"
+        android:textSize="16sp"
+        android:textStyle="italic"
+        android:layout_marginBottom="48dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="© 2026 Danish Luqman Ayob Bin Zulkefle. All Rights Reserved."
+        android:textColor="#000000"
+        android:textSize="12sp" />
+
+</LinearLayout>
